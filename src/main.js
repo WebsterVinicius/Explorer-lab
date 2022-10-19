@@ -44,15 +44,6 @@ const expirationDatePattern = {
 }
 const expirationDateMasked = IMask(expirationDate, expirationDatePattern)
 
-<<<<<<< HEAD
-setCardType("mastercard")
-
-const securityCode = document.querySelector('#security-code')
-const securityCodePattern = {
-    mask: "0000"
-}
-const securityCodeMask = IMask(securityCode, securityCodePattern)
-=======
 const cardNumber = document.querySelector("#card-number")
 const cardNumberPattern = {
   mask: [
@@ -81,4 +72,3 @@ const cardNumberPattern = {
   },
 }
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern)
->>>>>>> 033eedbed3659cf72522a5425e74950c7e2b3990
